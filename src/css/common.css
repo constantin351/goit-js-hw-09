@@ -16,3 +16,16 @@ img {
   display: block;
   max-width: 100%;
 }
+
+div.timer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  margin-top: 50px;
+}
+
+div.timer .value {
+  color:red;
+}
