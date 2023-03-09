@@ -11,9 +11,9 @@ function createPromises(event) {
     elements: { delay, step, amount }
     } = event.currentTarget;
 
-    let delayValue = delay.valueAsNumber;
-    let stepValue = step.valueAsNumber;
-    let amountValue = amount.valueAsNumber;
+    let delayValue = Number(delay.value);
+    let stepValue = Number(step.value);
+    let amountValue = Number(amount.value);
     
     for (let i = 1; i <= amountValue; i += 1) { 
         createPromise(i, delayValue)
