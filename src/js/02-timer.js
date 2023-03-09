@@ -4,6 +4,7 @@ import { Notify } from "notiflix/build/notiflix-notify-aio";
 
 const dateInput = document.querySelector("#datetime-picker");
 const startBtn = document.querySelector('button[data-start]');
+
 startBtn.disabled = true;
 
 const outputDays = document.querySelector('span[data-days]');

@@ -1,8 +1,10 @@
 
-// const form = document.querySelector(".form");
-// console.log(form);
-// console.log(document.querySelector(".form"));
-console.log("hi fdgf");
+const form = document.querySelector(".form");
+console.log(form);
+
+console.log(document.body);
+console.log(5);
+
 // const createPromisesBtn = document.querySelector("type[submit]");
 
 
@@ -13,7 +15,7 @@ console.log("hi fdgf");
 
 //     const shouldResolve = Math.random() > 0.3;
 
-//     setInterval(() => {
+//     setTimeout(() => {
 //       if (shouldResolve) {
 //         resolve(`Fulfilled promise ${position} in ${delay} ms`);
 //       } else {
